@@ -37,28 +37,6 @@ header .logo img:hover {
     box-shadow: 0 3px 3px #693cc4;
 }
 
-nav ul {
-    list-style: none; 
-    display: flex; 
-    gap: 20px;
-    margin: 0; 
-    padding: 0; 
-}
-
-nav li {
-    margin: 0; 
-}
-
-nav a {
-    text-decoration: none; 
-    color: #333; 
-    font-size: 16px;
-}
-
-nav img {
-    height: 80px;
-}
-
 /* Estilo da seção hero */
 .hero {
     background: url(../images/background-desktop.png) no-repeat center center/cover;
@@ -70,12 +48,6 @@ nav img {
     align-items: center;
     text-align: center;
     padding: 0 20px;
-}
-
-.hero h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 5rem;
-    margin-bottom: 10px;
 }
 
 /* Estilo das seções principais */
