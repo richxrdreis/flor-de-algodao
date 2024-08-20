@@ -18,11 +18,10 @@ O projeto é um SPA criado para fornecer uma apresentação interativa e respons
 
 Você pode visualizar o site através do seguinte link:
 
-- ![Acesse](https://richxrdreis.github.io/flor-de-algodao/)
+https://richxrdreis.github.io/flor-de-algodao/
 
 
 ## Tecnologias Utilizadas
 
 - **HTML**: Estrutura do site.
 - **CSS**: Estilo e layout.
-- **JavaScript**: Funcionalidades interativas.
