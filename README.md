@@ -25,3 +25,4 @@ https://richxrdreis.github.io/flor-de-algodao/
 
 - **HTML**: Estrutura do site.
 - **CSS**: Estilo e layout.
+- **JAVASCRIPT**: Programação referente ao header.
