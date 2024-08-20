@@ -17,6 +17,7 @@ body {
 }
 
 /* Estilos para o cabeçalho */
+
 header {
     position: fixed;
     width: 100%;
@@ -25,6 +26,11 @@ header {
     display: flex;
     justify-content: space-between; 
     align-items: center;
+    transition: background-color 0.3s ease-in-out;
+}
+
+header.header-scrolled {
+    background-color: white; 
 }
 
 header .logo img {
@@ -35,6 +41,22 @@ header .logo img {
 
 header .logo img:hover {
     box-shadow: 0 3px 3px #693cc4;
+}
+
+/* estilizando o btn */
+
+.contact-button a {
+    text-decoration: none;
+    color: #693cc4;
+    padding: 10px 15px;
+    border: 2px solid #693cc4;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.contact-button a:hover {
+    background-color: #693cc4;
+    color: #fff;
 }
 
 /* Estilo da seção hero */
@@ -114,21 +136,6 @@ section p {
     padding: 0 15px 20px;
     color: #555;
     font-size: 1rem;
-}
-
-.contact-button a {
-    text-decoration: none;
-    color: #693cc4;
-    /* font-weight: bold; */
-    padding: 10px 15px;
-    border: 2px solid #693cc4;
-    border-radius: 5px;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.contact-button a:hover {
-    background-color: #693cc4;
-    color: #fff;
 }
 
 /* Estilo da seção de contato */
