@@ -2,7 +2,7 @@
 
 ![Responsividade](https://github.com/user-attachments/assets/7deff47a-8183-4873-a261-b0d9b7a679df)
 
-Este repositório contém o código-fonte para um site de Aplicação de Página Única (SPA) desenvolvido como parte de um projeto de apresentação para alunos do meu antigo trabalho como jovem aprendiz na ESPRO.
+Este repositório contém o código-fonte para um site de Aplicação de Página Única (SPA) desenvolvido como parte de um projeto de apresentação para alunos da ESPRO (onde um dia também fiz parte).
 
 ## Descrição
 
