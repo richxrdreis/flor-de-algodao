@@ -26,6 +26,11 @@ header {
 header .logo img {
     width: 80px;
     border-radius: 50%;
+    transition: 0.3s ease-in-out;
+}
+
+header .logo img:hover {
+    box-shadow: 0 3px 3px #693cc4;
 }
 
 nav ul {
