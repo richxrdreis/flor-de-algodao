@@ -1,4 +1,4 @@
-## Projeto: Spa & Beleza - Flor de Algodão. (Feito para alunos da instituição ESPRO realizarem uma apresentação)
+## Projeto: Spa & Beleza - Flor de Algodão.
 
 ![Responsividade](https://github.com/user-attachments/assets/7deff47a-8183-4873-a261-b0d9b7a679df)
 
