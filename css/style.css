@@ -184,21 +184,28 @@ footer {
     color: #888;
 }
 
+/* Estilizando a barra de rolagem */
+::-webkit-scrollbar {
+    width: 12px;          
+}
+
+/* Estilizando a parte de fundo da barra de rolagem */
+::-webkit-scrollbar-track {
+    background-color: #ffffff; 
+}
+
+/* Estilizando o polegar da barra de rolagem (a parte que se move) */
+::-webkit-scrollbar-thumb {
+    background-color: #693cc4;    
+    border-radius: 10px;       
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #693cc483;    /
+}
+
 /* Media Queries para Responsividade */
 @media (max-width: 768px) {
-    header nav ul {
-        flex-direction: column;
-        gap: 15px;
-    }
-
-    .hero h1 {
-        font-size: 2rem;
-    }
-
-    .hero p {
-        font-size: 1rem;
-    }
-
     .services-grid {
         grid-template-columns: 1fr;
     }
@@ -217,18 +224,6 @@ footer {
 
     .hero {
         height: 50vh;
-    }
-
-    .hero h1 {
-        font-size: 1.8rem;
-    }
-
-    .hero p {
-        font-size: 0.9rem;
-    }
-
-    section h1 {
-        font-size: 1.8rem;
     }
 
     .service-card h2 {
